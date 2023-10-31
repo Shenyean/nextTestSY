@@ -21,12 +21,21 @@ export default function FirstPost() {
         <h1>First post </h1>
         <h2>
           Lets get ready to go <Link href="/">home</Link>
-          This is my first post and this is where i will try out the different
-          parts of next.js there is a facebook sdk running in the back ground
-          but i cannot really figure out what it does. but you can see it in the
-          Console when using the 'Link' component, the wen site does not do a
-          full refresh as compare to a tag
+          <br></br>This is my first post and this is where i will try out the
+          different parts of next.js there is a facebook sdk running in the back
+          ground but i cannot really figure out what it does. but you can see it
+          in the Console when using the 'Link' component, the wen site does not
+          do a full refresh as compare to a tag
         </h2>
+
+        <p>
+          As this is a server side rendered application, the javascript will not
+          be run by the client. meaning that it will be ok to disable the client
+          side JavaScript.Turn off Java script and click{" "}
+          <Link href="https://create-react-template.vercel.app/">
+            on this react app
+          </Link>
+        </p>
 
         <Image src="/images/facePic.jpeg" width={144} height={155}></Image>
         <h2>

@@ -21,3 +21,43 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 ### images
 
 - render images using the `<image>` tags from the `next/image` component
+
+### props in a component
+
+    export default function Layout({ children, home }) {
+        if( !home){
+            style :{ font: 55px}
+        }
+        else
+        { there is most prob a sytax error}
+    }
+
+The children prop refer to the content between the oepn and close tag of the component, while the we can make use the other home prob in the code
+
+    <Layout home>
+    this is the content of the layout component
+    </ Layout>
+
+### Alert.js
+
+Clsx library will determine the style based on the prop
+
+    export default function Alert({ children, type }) {
+    return (
+    <div
+      className={clsx({
+        [styles.success]: type === "success",
+        [styles.error]: type === "error",
+      })}
+    >
+      {children}
+    </div>
+
+);
+}
+
+the code will check the type prop from the component then decide the css style it will use.
+
+What up next?
+
+- [ ] understanding static generation
