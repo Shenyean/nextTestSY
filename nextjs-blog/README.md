@@ -61,3 +61,10 @@ the code will check the type prop from the component then decide the css style i
 What up next?
 
 - [ ] understanding static generation
+
+## 1st NOV 2023
+
+I tried to update some learning today but i am too tired and i gotaa be up early tml.
+
+But i have been thinking about static generation, a pre rendering method that generate html during build time. so most and the same html is reused every request. so most prob some part of a web page that done change often. like a logo page that talks about the origin of a company??
+but are we able to mix static generation with sever side rendering , hope i can come back and read more before i sleep.
