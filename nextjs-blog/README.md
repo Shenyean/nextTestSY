@@ -68,3 +68,8 @@ I tried to update some learning today but i am too tired and i gotaa be up early
 
 But i have been thinking about static generation, a pre rendering method that generate html during build time. so most and the same html is reused every request. so most prob some part of a web page that done change often. like a logo page that talks about the origin of a company??
 but are we able to mix static generation with sever side rendering , hope i can come back and read more before i sleep.
+
+## 3rd Nov 2023
+
+Static generation using grey matter
+next js routing must sit in pages foldern pages-->post1 will be sitting at local:3000/page1 while pages--> index.js will be local:3000/
