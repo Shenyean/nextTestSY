@@ -73,3 +73,11 @@ but are we able to mix static generation with sever side rendering , hope i can 
 
 Static generation using grey matter
 next js routing must sit in pages foldern pages-->post1 will be sitting at local:3000/page1 while pages--> index.js will be local:3000/
+
+exporting and importing functions to keep code clean .
+this is a habit that i should adapt.
+looking at my current project, i always keep throw my code into one page
+
+## 4th Nov 2023
+
+getStaticProp is a special next.js function that will tell next.js to pre-render the page as static page at build time - there fore you do not see the function being called anywhere else in the code.

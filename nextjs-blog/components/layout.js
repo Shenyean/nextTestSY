@@ -34,7 +34,7 @@ export default function Layout({ children, home }) {
               className={utilStyles.borderCircle}
               height={144}
               width={144}
-              alt=""
+              alt="home pic"
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
@@ -43,11 +43,11 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/abcde.png"
+                src="/images/facePic.jpeg"
                 className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt=""
+                height={144}
+                width={144}
+                alt="wat?"
               />
             </Link>
             <h2 className={utilStyles.headingLg}>
